@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Page | Simple Omelette</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <style>
+    :root{
+      --color:hsl(14, 45%, 36%)
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 20px;
+      background-color: hsl(30, 54%, 90%)
+    }
+    .container {
+      max-width: 600px;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin: auto;
+      
+    }
+    .image {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    
+    h2 {
+      color : var(--color)
+    }
+    ul, ol {
+      margin-left: 20px;
+    }
+    ol li::marker {
+      color:var(--color);
+      font-weight: bolder;
+      
+    }
+    .o {
+      display: inline-block;
+      width: 325px;
+    
+      box-sizing: border-box;
+    }
+    .b{
+      color: var(--color);
+      font-weight: bolder;
+    }
+  
+    
+    .attribution {
+      text-align: center;
+      font-size: 12px;
+      margin-top: 20px;
+    }
+    .preparation {
+      background:hsl(330, 100%, 98%) ;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <img class = "image" src="assets/images/image-omelette.jpeg" alt="loading">
+  <h1> <b>Simple Omelette Recipe</b></h1>
+  <p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
+  <div class = "preparation">
+    <h3 style="color: hsl(332, 51%, 32%); margin-left:20px;">Preparation Time</h3>
+    <ul>
+      <li><b>Total:</b> Approximately 10 minutes</li>
+      
+      <li><b>Preparation:</b> 5 minutes</li>
+      
+      <li><b>Cooking:</b> 5 minutes</li>
+      
+    </ul>
+
+
+  </div>
+ 
+
+  <h2>Ingredients</h2>
+  <ul>
+    <li>2-3 large eggs</li>
+    <li>Salt, to taste</li>
+    <li>Pepper, to taste</li>
+    <li>1 tablespoon of butter or oil</li>
+    <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+  </ul>
+
+  <h2>Instructions</h2>
+  <ol>
+    <li><b>Beat the eggs:</b> In a bowl, beat the eggs with a pinch of salt and pepper until well mixed. You can add a tablespoon of water or milk for a fluffier texture.</li>
+    <li><b>Heat the pan:</b> Place a non-stick frying pan over medium heat and add butter or oil.</li>
+    <li><b>Cook the omelette:</b> Once the butter is melted, pour in the eggs and tilt the pan to evenly coat the surface.</li>
+    <li><b>Add fillings (optional):</b> When the eggs start setting but are slightly runny in the middle, sprinkle your chosen fillings over one half.</li>
+    <li><b>Fold and serve:</b> Carefully lift one edge and fold it over the fillings. Let it cook for another minute, then slide onto a plate.</li>
+    <li><b>Enjoy:</b> Serve hot, with additional salt and pepper if needed.</li>
+  </ol>
+  <hr>
+  <div class="nutrition">
+  <h2>Nutrition</h2>
+  <p>The table below shows nutritional values per serving without the additional fillings.</p>
+  <div class="tt">
+    
+    <p><span class="o">Calories: </span>  <span class="b">277 kcal</span>   </p>
+    <hr>
+    <p><span class="o">Carbs:</span>          <span class="b">0g</span>        </p>
+    <hr>
+    <p><span class="o">Protein: </span>      <span class="b">20g</span>        </p>
+    <hr>
+    <p><span class="o">Fat:  </span>           <span class="b">22g</span>       </p>
+
+  </div>
+  
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Wei_Nguyen</a>.
+  </div>
+</div>
+
+</body>
+</html>
